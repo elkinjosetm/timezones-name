@@ -1,5 +1,5 @@
 {
-  "name": "js-timezones-name",
+  "name": "js-us-timezones",
   "version": "0.0.1",
   "description": "Library to get timezone details by Name",
   "main": "index.js",
