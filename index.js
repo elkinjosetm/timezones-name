@@ -2,14 +2,14 @@ const _            = require( 'lodash' );
 const timeZoneList = require( './list' );
 
 const timeZoneManager = ( function () {
-	const getTimeZonesByAbbreviation = abbreviation => _.filter( timeZoneList, timeZone => timeZone.Abbreviation == abbreviation );
-	const getTimeZoneByName          = name => _.find( timeZoneList, timeZone => timeZone.Name == name );
-	const getAll                     = () => timeZoneList;
+const getTimeZoneByAbbreviation = abbreviation => _.find( timeZoneList, timeZone => timeZone.Abbreviation == abbreviation );
+const getTimeZoneByName         = name => _.find( timeZoneList, timeZone => timeZone.Name == name );
+const getAll                    = () => timeZoneList;
 
 	return {
-		getTimeZonesByAbbreviation : getTimeZonesByAbbreviation,
-		getTimeZoneByName          : getTimeZoneByName,
-		getAll                     : getAll,
+		getTimeZoneByAbbreviation : getTimeZoneByAbbreviation,
+		getTimeZoneByName         : getTimeZoneByName,
+		getAll                    : getAll,
 	};
 } )()
 

@@ -7,7 +7,7 @@ describe ( "Tests", () => {
 	it ( "Test getTimeZoneByName( 'Pacific Standard Time' )", doneCallback => {
 		var timezone = timeZoneManager.getTimeZoneByName( 'Pacific Standard Time' );
 
-		expect( timezone ).to.not.be.null;
+		expect( timezone ).to.not.be.undefined;
 		expect( timezone ).to.be.an( 'object' );
 		expect( timezone.Name ).to.be.equal( 'Pacific Standard Time' );
 		expect( timezone.Abbreviation ).to.be.equal( 'PST' );
@@ -15,14 +15,13 @@ describe ( "Tests", () => {
 		doneCallback();
 	} );
 
-	it ( "Test getTimeZonesByAbbreviation( 'CST' )", doneCallback => {
-		var timezones = timeZoneManager.getTimeZonesByAbbreviation( 'CST' );
+	it ( "Test getTimeZoneByAbbreviation( 'CST' )", doneCallback => {
+		var timezone = timeZoneManager.getTimeZoneByAbbreviation( 'CST' );
 
-		expect( timezones ).to.not.be.null;
-		expect( timezones ).to.be.instanceof( Array );
-		expect( timezones ).to.not.to.be.empty;
-		expect( timezones[ 1 ].Name ).to.be.equal( 'Central Standard Time' );
-		expect( timezones[ 1 ].Abbreviation ).to.be.equal( 'CST' );
+		expect( timezone ).to.not.be.undefined;
+		expect( timezone ).to.be.an( 'object' );
+		expect( timezone.Name ).to.be.equal( 'Central Standard Time' );
+		expect( timezone.Abbreviation ).to.be.equal( 'CST' );
 
 		doneCallback();
 	} );
@@ -31,6 +30,7 @@ describe ( "Tests", () => {
 		var timezones = timeZoneManager.getAll();
 
 		expect( timezones ).to.not.be.null;
+		expect( timezones ).to.not.be.undefined;
 		expect( timezones ).to.be.instanceof( Array );
 		expect( timezones ).to.not.to.be.empty;
 
