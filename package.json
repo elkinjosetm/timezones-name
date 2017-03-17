@@ -1,0 +1,34 @@
+{
+  "name": "js-timezones-name",
+  "version": "0.0.1",
+  "description": "Library to get timezone details by Name",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkinjosetm/js-timezones-name.git"
+  },
+  "keywords": [
+    "timezone",
+    "timezones",
+    "timezone",
+    "abbreviation",
+    "timezone",
+    "name",
+    "timezone",
+    "abbrev"
+  ],
+  "author": "Elkin Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkinjosetm/js-timezones-name/issues"
+  },
+  "homepage": "https://github.com/elkinjosetm/js-timezones-name#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0"
+  }
+}
