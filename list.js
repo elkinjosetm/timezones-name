@@ -1,74 +1,74 @@
 module.exports = [
 	{
 		"Abbreviation" : "AKDT",
-		"DisplayName"  : "Alaska Daylight Time(UTC - 8)",
 		"Name"         : "Alaska Daylight Time",
+		"DisplayName"  : "Alaska Daylight Time (UTC - 8)",
 		"Offset"       : "-8 hours"
 	},
 	{
 		"Abbreviation" : "AKST",
-		"DisplayName"  : "Alaska Standard Time(UTC - 9)",
 		"Name"         : "Alaska Standard Time",
+		"DisplayName"  : "Alaska Standard Time (UTC - 9)",
 		"Offset"       : "-9 hours"
 	},
 	{
 		"Abbreviation" : "CDT",
-		"DisplayName"  : "Central Daylight Time(UTC - 5)",
 		"Name"         : "Central Daylight Time",
+		"DisplayName"  : "Central Daylight Time (UTC - 5)",
 		"Offset"       : "-5 hours"
 	},
 	{
 		"Abbreviation" : "CST",
-		"DisplayName"  : "Central Standard Time(UTC - 6)",
 		"Name"         : "Central Standard Time",
+		"DisplayName"  : "Central Standard Time (UTC - 6)",
 		"Offset"       : "-6 hours"
 	},
 	{
 		"Abbreviation" : "EDT",
-		"DisplayName"  : "Eastern Daylight Time(UTC - 4)",
 		"Name"         : "Eastern Daylight Time",
+		"DisplayName"  : "Eastern Daylight Time (UTC - 4)",
 		"Offset"       : "-4 hours"
 	},
 	{
 		"Abbreviation" : "EST",
-		"DisplayName"  : "Eastern Standard Time(UTC - 5)",
 		"Name"         : "Eastern Standard Time",
+		"DisplayName"  : "Eastern Standard Time (UTC - 5)",
 		"Offset"       : "-5 hours"
 	},
 	{
 		"Abbreviation" : "HADT",
-		"DisplayName"  : "Hawaii-Aleutian Daylight Time(UTC - 9)",
 		"Name"         : "Hawaii-Aleutian Daylight Time",
+		"DisplayName"  : "Hawaii-Aleutian Daylight Time (UTC - 9)",
 		"Offset"       : "-9 hours"
 	},
 	{
 		"Abbreviation" : "HAST",
-		"DisplayName"  : "Hawaii-Aleutian Standard Time(UTC - 10)",
 		"Name"         : "Hawaii-Aleutian Standard Time",
+		"DisplayName"  : "Hawaii-Aleutian Standard Time (UTC - 10)",
 		"Offset"       : "-10 hours"
 	},
 	{
 		"Abbreviation" : "MDT",
-		"DisplayName"  : "Mountain Daylight Time(UTC - 6)",
 		"Name"         : "Mountain Daylight Time",
+		"DisplayName"  : "Mountain Daylight Time (UTC - 6)",
 		"Offset"       : "-6 hours"
 	},
 	{
 		"Abbreviation" : "MST",
-		"DisplayName"  : "Mountain Standard Time(UTC - 7)",
 		"Name"         : "Mountain Standard Time",
+		"DisplayName"  : "Mountain Standard Time (UTC - 7)",
 		"Offset"       : "-7 hours"
 	},
 	{
 		"Abbreviation" : "PDT",
-		"DisplayName"  : "Pacific Daylight Time(UTC - 7)",
 		"Name"         : "Pacific Daylight Time",
+		"DisplayName"  : "Pacific Daylight Time (UTC - 7)",
 		"Offset"       : "-7 hours"
 	},
 	{
 		"Abbreviation" : "PST",
-		"DisplayName"  : "Pacific Standard Time(UTC - 8)",
 		"Name"         : "Pacific Standard Time",
+		"DisplayName"  : "Pacific Standard Time (UTC - 8)",
 		"Offset"       : "-8 hours"
 	},
 ];
