@@ -1,15 +1,15 @@
 module.exports = [
 	{
+		"Abbreviation" : "AKDT",
+		"DisplayName"  : "Alaska Daylight Time(UTC - 8)",
+		"Name"         : "Alaska Daylight Time",
+		"Offset"       : "-8 hours"
+	},
+	{
 		"Abbreviation" : "AKST",
 		"DisplayName"  : "Alaska Standard Time(UTC - 9)",
 		"Name"         : "Alaska Standard Time",
 		"Offset"       : "-9 hours"
-	},
-	{
-		"Abbreviation" : "AST",
-		"DisplayName"  : "Atlantic Standard Time(UTC - 4)",
-		"Name"         : "Atlantic Standard Time",
-		"Offset"       : "-4 hours"
 	},
 	{
 		"Abbreviation" : "CDT",
