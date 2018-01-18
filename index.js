@@ -15,9 +15,9 @@ const timeZoneManager = (function () {
 	}
 
 	return {
-		getTimeZoneByAbbreviation,
-		getTimeZoneByName,
-		getAll,
+		getTimeZoneByAbbreviation : getTimeZoneByAbbreviation,
+		getTimeZoneByName         : getTimeZoneByName,
+		getAll                    : getAll,
 	};
 })()
 
