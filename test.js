@@ -2,8 +2,8 @@ const chai = require('chai');
 const timeZoneManager = require('./index');
 const expect = chai.expect;
 
-describe ("Tests", () => {
-	it ("Test getTimeZoneByName('Pacific Standard Time')", doneCallback => {
+describe ("Tests", function() {
+	it ("Test getTimeZoneByName('Pacific Standard Time')", function(doneCallback) {
 		var timezone = timeZoneManager.getTimeZoneByName('Pacific Standard Time');
 
 		expect(timezone).to.not.be.undefined;
@@ -14,7 +14,7 @@ describe ("Tests", () => {
 		doneCallback();
 	});
 
-	it ("Test getTimeZoneByAbbreviation('CST')", doneCallback => {
+	it ("Test getTimeZoneByAbbreviation('CST')", function(doneCallback) {
 		var timezone = timeZoneManager.getTimeZoneByAbbreviation('CST');
 
 		expect(timezone).to.not.be.undefined;
@@ -25,7 +25,7 @@ describe ("Tests", () => {
 		doneCallback();
 	});
 
-	it ("Test getAll()", doneCallback => {
+	it ("Test getAll()", function(doneCallback) {
 		var timeZones = timeZoneManager.getAll();
 
 		expect(timeZones).to.not.be.null;
