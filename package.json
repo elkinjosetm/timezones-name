@@ -1,6 +1,6 @@
 {
   "name": "us-timezones-name",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library to get timezone details by Name",
   "main": "index.js",
   "scripts": {
