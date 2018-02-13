@@ -1,5 +1,5 @@
 const chai = require('chai');
-const timeZoneManager = require('./index');
+const timeZoneManager = require('./dist').default;
 const expect = chai.expect;
 
 describe ("Tests", function() {

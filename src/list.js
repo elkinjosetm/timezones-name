@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 	{
 		"Abbreviation" : "AKDT",
 		"Name"         : "Alaska Daylight Time",
